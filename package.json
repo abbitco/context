@@ -1,9 +1,9 @@
 {
   "name": "@abbit/context",
-  "version": "0.9.0",
+  "version": "0.9.1",
   "description": "A very basic hierarchical context for parameter handling and execution control",
-  "main": "lib/index.js",
-  "types": "lib/index.d.ts",
+  "main": "lib/Context.js",
+  "types": "lib/Context.d.ts",
   "scripts": {
     "build": "tsc",
     "test": "mocha -r ts-node/register --reporter=spec --exit"
